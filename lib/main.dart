@@ -102,6 +102,7 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
+            _counter > 10 ? const Text('Now stop pushing it!') : const Text('Push away'),
           ],
         ),
       ),
